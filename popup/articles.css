@@ -1,0 +1,40 @@
+.articleSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.articleSection .articleImageContainer {
+    max-width: 80%;
+    min-width: 80%;
+}
+
+.articleImageContainer img {
+    width: 100%;
+}
+
+
+.articleSection .articleTitle {
+    text-align: center;
+    font-size: 15px;
+    text-decoration: none;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.articleSection .articleTitle:hover {
+    opacity: 75%;
+}
+
+.articleSection .articleAuthor {
+    text-align: center;
+    font-size: 12px;
+}
+
+.articleSection .articleTextContainer {
+    max-width: 80%;
+    min-width: 80%;
+    text-align: justify;
+}

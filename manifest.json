@@ -1,0 +1,10 @@
+{
+    "manifest_version": 3,
+    "name": "News API Extension",
+    "description": "An extension that provides access to the top 20 US news stories from each category through the use of newsapi.org",
+    "version": "1.0",
+    "action": {
+        "default_popup": "popup/popup.html",
+        "default_icon": "assets/newspaper_icon.png"
+    }
+}
