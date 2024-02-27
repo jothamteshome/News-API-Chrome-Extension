@@ -60,7 +60,7 @@ const populateCategorySection = function (section, articles) {
 }
 
 const retrieveNewsContent = function (category, section) {
-    const requestURL = `http://127.0.0.1:8989/retrieveNewsContent/${category}/us`;
+    const requestURL = `https://backend-c2qihxq7la-uc.a.run.app/retrieveNewsContent/${category}/us`;
 
     const request = new Request(requestURL);
 
