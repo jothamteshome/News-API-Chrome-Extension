@@ -1,0 +1,5 @@
+flask
+gunicorn
+Flask-Failsafe
+requests
+python-dotenv
